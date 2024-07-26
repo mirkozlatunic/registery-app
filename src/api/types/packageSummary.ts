@@ -1,5 +1,5 @@
 export interface PackageSummary {
-  naem: string;
+  name: string;
   version: string;
   description: string;
   keywords: string[];
