@@ -1,6 +1,6 @@
 import type { PackageDetails } from "../types/packageDetails";
 
-const FEATURES_PACKAGES = ["react", "typscript", "esbuild", "vite"];
+const FEATURES_PACKAGES = ["react", "typescript", "esbuild", "vite"];
 
 export async function getFeaturedPackages() {
   const promises = FEATURES_PACKAGES.map(async (name) => {
