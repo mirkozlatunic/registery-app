@@ -1,30 +1,40 @@
-# React + TypeScript + Vite
+<div align="center">
+<h1>Registry App</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="html">
+<img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="tailwindCSS">
+<img src ="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="reactjs">
+<img src ="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="reactrouter">
+<img src ="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="vite">
+<img src ="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="typscript">
 
-Currently, two official plugins are available:
+<img src="./src/assets/registry-app.gif">
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📋 <a name="table">Table of Contents</a>
 
-## Expanding the ESLint configuration
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Link to Page](#link-page)
+4. 🛠️ [Improvements Ideas](#improvements)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## <a name="introduction">🤖 Introduction</a>
 
-- Configure the top-level `parserOptions` property like this:
+The challenge was to reimagine the NPM homepage, expand its functionality, and beautifully present API data on detail pages.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+The development involved leveraging the power of React.js, React Router, Vite, and TypeScript, while incorporating the sleek styling capabilities of Tailwind CSS.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- HTML
+- Tailwind CSS
+- ReactJS
+- React Router
+- Vite
+- TypeScript
+
+## <a name="link-page">🔋 Link to Page</a>
+
+- Live Site URL: [GitHub Page](https://mirkozlatunic.github.io/registry-app/)
+
+## <a name="improvements">🛠️ Improvements Ideas</a>
